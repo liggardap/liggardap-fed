@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 5px;
+    color: black;
+    border: 3px solid;
+}
+
+header ul {
+    float: right;
+    border: 3px solid;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+Main {
+    width: 50%;
+    height: 500px;
+    text-align: justify;
+    margin: 20px 100px 20px 100px;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2 ul {
+    float: left;
+    border: 3px solid;
+}
+
+.container2 ul li {
+    display: inline-block;
+}
+
+.container2 ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+.container2 ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.container3 h1 {
+    float: right;
+    padding: 15px 5px;
+    color: black;
+}
+
+.container3 ul {
+    float: right;
+    border: none;
+}
+
+.container3 ul li {
+    display: inline-block;
+}
+
+.container3 ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+.container3 ul li a:hover {
+    background-color: none;
+}
+
+.container3 ul li a img {
+    width: 30px;
+    height: auto;
+}
+
+.container3 p {
+    float: right;
+}
+
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    padding: 10px 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header ul li p {
+    padding: 25px 20px;
+}
+
+header ul li p:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/contactus.css">
+
+    <script src="../js/MyForm.js"></script>
+</head>
+
+<body>
+    <section>
+        <!--Header-->
+        <header>
+            <div class="container">
+                <h1><a href="homepage.html">ABC Learning Center</a></h1>
+                <ul>
+                    <li><a href="../pages/clisting.html">Course</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li class="active"><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="../pages/register.html">Register</a></li>
+                    <li><a href="homepage.html">Back to Home</a></li>
+                </ul>
+            </div>
+        </header>
+        <br>
+            <h2 style="text-align: center;">Contact ABC Learning Center</h2><br><br>
+            <div class="contact-form">
+                <form name='registration' onSubmit="return formValidation();">
+
+                    <label for="user-name">Name:</label><br>
+                    <input type="text" id="user_name" name="user_name" size="50" placeholder="Enter User Name here" required><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" size="50" placeholder="Enter your email here" required><br>
+
+                    <label for="contact">Contact:</label><br>
+                    <input type="tel" id="contact" name="contact" size="8" placeholder="Enter your contact number here" required><br>
+
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address" placeholder="Enter your Address here"><br>
+                
+                    <label for="comments">Comments</label><br>
+                    <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter your comments here" style="height:200px" required></textarea><br>
+                
+                    <input type="submit" name="submit" value="Submit" onclick="myFunction()">
+                    <script>function myFunction(){
+                        alert ("Thank you for contact us");
+                    }</script>
+                  </form>
+            </div>
+            <br>
+        <footer>
+            <div class="container2">
+                <ul>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+                <div class="container3">
+                    <ul>
+                        <li>Follow Us at</li>
+                        <li><a href="#"><img src="../img/facebook.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="../img/instagram.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="../img/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="../img/youtube.jpg" alt="Twitter"></a></li>
+                        <div>
+                            <p>Copyright 2021 ABC Learning Centre Pte Ltd All Right Reserved</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

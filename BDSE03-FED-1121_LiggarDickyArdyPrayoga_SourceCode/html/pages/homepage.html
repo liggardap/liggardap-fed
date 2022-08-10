@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+
+<body>
+    <section>
+        <!--Header-->
+        <header>
+            <div class="container">
+                <h1><a href="homepage.html">ABC Learning Center</a></h1>
+                <ul>
+                    <li class="active"><a href="homepage.html">Home</a></li>
+                    <li><a href="../pages/clisting.html">Course</a></li>
+                    <li><a href="../pages/aboutus.html">About Us</a></li>
+                    <li><a href="../pages/contactus.html">Contact Us</a></li>
+                    <li><a href="../pages/register.html">Register</a></li>
+                </ul>
+            </div>
+        </header>
+        <div style="display: flex; margin-left: 100px;">
+            <!--Hero Banner-->
+            <Main>
+                <!--image slider start-->
+                <div class="slider">
+                    <div class="slides">
+                        <!--radio button start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!--radio button ends-->
+                        <!--slide images start-->
+                        <div class="slide first">
+                            <img src="../img/1.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/2.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/3.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="../img/4.jpeg" alt="">
+                        </div>
+                        <!--slide images end-->
+                        <!--automatic navgation start-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <!--automatic navgation end-->
+                    </div>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                    <!--manual navigation end-->
+                    <script type="text/javascript" src="../js/main.js"></script>
+                </div>
+            </Main>
+            <!--Aside content testimonial-->
+            <aside>
+                <div class="wrapper">
+                    <div class="testimonial">
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/person_1.png" alt="person_image">
+                            </div>
+                            <div class="name">Mike Kane - Denpasar</div>
+                            <div class="content">
+                                <h1>CSS</h1>
+                                <p>"ABC Learning Center is both attractive and highly adaptable."<br><br><br>
+                                <br><br></p>
+                                <div class="stars">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gray.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/person_2.png" alt="person_image">
+                            </div>
+                            <div class="name">Carlo Rossi - Surabaya</div>
+                            <div class="content">
+                                <h1>Javascript</h1>
+                                <p>"It's all good. I can't say enough about ABC Learning Center. Very easy to use. ABC Learning Center is the real deal!"<br><br>
+                                </p>
+                                <div class="stars">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/person_3.png" alt="person_image">
+                            </div>
+                            <div class="name">Peter Jackson - Malang</div>
+                            <div class="content">
+                                <h1>CSS</h1>
+                                <p>"I like ABC Learning Center more and more each day because it makes my life a lot easier. I was amazed at the quality of ABC Learning Center."</p>
+                                <div class="stars">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                    <img src="../img/star_gold.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clear_fix"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <br><br>
+
+        <footer>
+            <div class="container2">
+                <ul>
+                    <li><a href="../pages/sitemap.html">Sitemap</a></li>
+                    <li><a href="../pages/privacypolicy.html">Privacy Policy</a></li>
+                </ul>
+                <div class="container3">
+                    <ul>
+                        <li>Follow Us at</li>
+                        <li><a href="#"><img src="../img/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="../img/instagram.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="../img/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="../img/youtube.jpg" alt="Youtube"></a></li>
+                        <div>
+                            <p>Copyright 2021 ABC Learning Centre Pte Ltd All Right Reserved</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
